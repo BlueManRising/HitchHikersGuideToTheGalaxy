@@ -36,7 +36,7 @@ A fullscreen interactive touchscreen app styled after the *Hitchhiker's Guide to
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/hitchhikers-guide-pi.git
+git clone https://github.com/BlueManRising/hitchhikers-guide-pi.git
 cd hitchhikers-guide-pi
 ```
 
