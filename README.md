@@ -4,6 +4,9 @@
 
 A fullscreen interactive touchscreen app styled after the *Hitchhiker's Guide to the Galaxy*, built for Raspberry Pi. Combines beautiful UI, animated buttons, quirky Guide content, and live AI interaction powered by TinyLlama via [Ollama](https://ollama.com).
 
+![be3e1a32-46bf-445f-8c3d-0f5cc499b1eb~1](https://github.com/user-attachments/assets/80b0b532-f293-4fbb-b3c0-fa898c19e65b)
+
+
 ---
 
 ## 📸 Features
@@ -20,7 +23,9 @@ A fullscreen interactive touchscreen app styled after the *Hitchhiker's Guide to
 ## ⚙️ Requirements
 
 - Raspberry Pi (any model with a touchscreen)
-- Raspberry Pi OS (Lite or Desktop)
+    - I used a 7" LCD Dsplay C 1024x600 USB Touch screen
+- Raspberry Pi OS (Desktop is prefered since it has all the GUI loaded)
+    - I used a Pi 5 with 16gb of Ram   
 - Python 3.7+
 - [Ollama](https://ollama.com) with `tinyllama` pulled
 - Internet connection (for initial install only)
@@ -68,14 +73,16 @@ No API keys. No internet required once installed.
 ## 💡 Tips
 
 - Tap `THE GUIDE` for LLM interaction
+    - I dont have a Keyboard setup, so if you want to integrate a small factor keyboard, do it!
 - Swipe or tap arrow buttons to scroll
 - Quit with the `QUIT` button or `Ctrl+C` from terminal
-- All content is editable via the `assets/pages/` folder
+- All content (meaning the button menus) is editable via the `assets/pages/` folder, it just pulls a txt file, meant to be fun.
 
 ---
 
 ## 🛠 Developer Notes
 
+- Me and GPT got it done, I wanted this so bad, 
 - Built with `pygame`
 - All animations, layout, and logic in `main.py`
 - Fonts and images stored in `assets/`
