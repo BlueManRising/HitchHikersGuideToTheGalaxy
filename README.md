@@ -93,7 +93,7 @@ No API keys. No internet required once installed.
 I specifically made the AI talk as if its the guide, now as cool as it is, its a little wordy... (i even did try to make it shorter, but its ignoring me in true Douglass Adas fashon)
 
 Find the following section in the code (around line 107) and change it if you want :)
-
+```bash
 # --- BUILD PROMPT FUNCTION ---
 def build_prompt(user_query):
     system_prompt = (
@@ -102,7 +102,7 @@ def build_prompt(user_query):
         "Keep your answers extremely short—only one or two sentences."
     )
     return system_prompt + "\n" + user_query
-
+```
 ---
 
 ## ☕ Contribute
