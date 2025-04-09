@@ -23,7 +23,7 @@ A fullscreen interactive touchscreen app styled after the *Hitchhiker's Guide to
 ## ⚙️ Requirements
 
 - Raspberry Pi (any model with a touchscreen)
-    - I used a 7" LCD Dsplay C 1024x600 USB Touch screen
+    - I used a 7" LCD Display C 1024x600 USB Touch screen
 - Raspberry Pi OS (Desktop is prefered since it has all the GUI loaded)
     - I used a Pi 5 with 16gb of Ram   
 - Python 3.7+
